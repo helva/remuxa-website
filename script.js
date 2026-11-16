@@ -105,7 +105,7 @@ function setLanguage(language) {
     ? 'mailto:destek@remuxa.com'
     : 'mailto:support@remuxa.com';
   menuButton.setAttribute('aria-label', words[menuButton.getAttribute('aria-expanded') === 'true' ? 'menuClose' : 'menuOpen']);
-  localStorage.setItem('remuxa-language', currentLanguage);
+  localStorage.setItem('remuxa-language-v2', currentLanguage);
 }
 
 menuButton.addEventListener('click', () => {
@@ -126,4 +126,4 @@ document.querySelectorAll('[data-language]').forEach(button => {
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
-setLanguage(localStorage.getItem('remuxa-language') || 'en');
+setLanguage(localStorage.getItem('remuxa-language-v2') || 'tr');
