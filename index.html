@@ -4,19 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07152d">
-  <meta name="description" content="REMUXA provides remote IT support and managed services to keep your technology running smoothly.">
+  <meta name="description" content="REMUXA provides remote IT support and managed services to keep your technology running smoothly." data-i18n-description>
   <title>REMUXA — Remote IT Support &amp; Management</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="language.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="REMUXA home"><img width="234" src="remuxa-logo.svg" alt="REMUXA — Remote IT Support &amp; Management"></a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="#services">Services</a><a href="#approach">Our approach</a><a class="nav-cta" href="#contact">Get support <span>↗</span></a>
+    <a class="brand" href="#top" aria-label="REMUXA home" data-i18n-aria="brandHome"><img width="234" src="remuxa-logo.svg" alt="REMUXA — Remote IT Support &amp; Management" data-i18n-alt="brandAlt"></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" data-i18n-aria="menuOpen"><i></i><i></i></button>
+    <nav class="nav-links" aria-label="Main navigation" data-i18n-aria="mainNav">
+      <a href="#services" data-i18n="navServices">Services</a><a href="#approach" data-i18n="navApproach">Our approach</a><a class="nav-cta" href="#contact"><span data-i18n="navSupport">Get support</span> <span>↗</span></a>
+      <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="languageSelector">
+        <button type="button" data-language="en" aria-pressed="true" aria-label="Switch to English">EN</button><span aria-hidden="true">/</span><button type="button" data-language="tr" aria-pressed="false" aria-label="Switch to Turkish">TR</button>
+      </div>
     </nav>
   </header>
 
@@ -24,51 +28,52 @@
     <section class="hero">
       <div class="hero-grid"></div><div class="hero-glow"></div>
       <div class="hero-content">
-        <div class="eyebrow"><span class="pulse"></span> YOUR REMOTE IT PARTNER</div>
-        <h1>Technology should<br>keep you <em>moving.</em></h1>
-        <p class="hero-lead">Reliable remote IT support and thoughtful management for the systems your business depends on.</p>
-        <div class="hero-actions"><a class="button button-blue" href="#contact">Let’s talk about your IT <span>↗</span></a><a class="text-link" href="#services">Explore our services <span>↓</span></a></div>
-        <div class="hero-foot"><span>REMOTE IT SUPPORT &amp; MANAGEMENT</span><span class="foot-line"></span><span>ALWAYS HERE, WHEREVER YOU ARE</span></div>
+        <div class="eyebrow"><span class="pulse"></span> <span data-i18n="heroEyebrow">YOUR REMOTE IT PARTNER</span></div>
+        <h1 data-i18n-html="heroTitle">Technology should<br>keep you <em>moving.</em></h1>
+        <p class="hero-lead" data-i18n="heroLead">Reliable remote IT support and thoughtful management for the systems your business depends on.</p>
+        <div class="hero-actions"><a class="button button-blue" href="#contact"><span data-i18n="heroCta">Let’s talk about your IT</span> <span>↗</span></a><a class="text-link" href="#services"><span data-i18n="heroExplore">Explore our services</span> <span>↓</span></a></div>
+        <div class="hero-foot"><span data-i18n="heroFootLeft">REMOTE IT SUPPORT &amp; MANAGEMENT</span><span class="foot-line"></span><span data-i18n="heroFootRight">ALWAYS HERE, WHEREVER YOU ARE</span></div>
       </div>
       <div class="hero-art" aria-hidden="true">
         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
         <div class="core"><span class="core-r">R</span><span class="core-ring"></span></div>
-        <div class="node node-a"><span class="node-icon">⌘</span><span class="node-label">ENDPOINTS</span><b></b></div>
-        <div class="node node-b"><span class="node-icon">⌁</span><span class="node-label">NETWORK</span><b></b></div>
-        <div class="node node-c"><span class="node-icon">▣</span><span class="node-label">SERVERS</span><b></b></div>
+        <div class="node node-a"><span class="node-icon">⌘</span><span class="node-label" data-i18n="nodeEndpoints">ENDPOINTS</span><b></b></div>
+        <div class="node node-b"><span class="node-icon">⌁</span><span class="node-label" data-i18n="nodeNetwork">NETWORK</span><b></b></div>
+        <div class="node node-c"><span class="node-icon">▣</span><span class="node-label" data-i18n="nodeServers">SERVERS</span><b></b></div>
         <div class="signal signal-a"></div><div class="signal signal-b"></div>
-        <div class="art-caption"><span class="caption-dot"></span> SYSTEMS CONNECTED <span>·</span> SUPPORT READY</div>
+        <div class="art-caption"><span class="caption-dot"></span> <span data-i18n="artCaption">SYSTEMS CONNECTED · SUPPORT READY</span></div>
       </div>
-      <div class="hero-side-label">01 — CONNECTED BY DESIGN</div>
+      <div class="hero-side-label" data-i18n="heroSide">01 — CONNECTED BY DESIGN</div>
     </section>
 
     <section class="intro section-wrap" id="approach">
-      <div class="section-kicker"><span>01</span> A steadier way to work</div>
-      <div class="intro-body"><h2>Good IT support feels<br>like <span>everything just works.</span></h2><div class="intro-copy"><p>When technology gets in the way, we help get you back to what matters. REMUXA brings responsive remote support and proactive IT management together in one dependable partner.</p><a href="#contact" class="arrow-link">Meet your IT partner <span>↗</span></a></div></div>
+      <div class="section-kicker"><span>01</span> <span data-i18n="introKicker">A steadier way to work</span></div>
+      <div class="intro-body"><h2 data-i18n-html="introTitle">Good IT support feels<br>like <span>everything just works.</span></h2><div class="intro-copy"><p data-i18n="introCopy">When technology gets in the way, we help get you back to what matters. REMUXA brings responsive remote support and proactive IT management together in one dependable partner.</p><a href="#contact" class="arrow-link"><span data-i18n="introLink">Meet your IT partner</span> <span>↗</span></a></div></div>
     </section>
 
     <section class="services section-wrap" id="services">
-      <div class="section-kicker"><span>02</span> What we take care of</div>
-      <div class="services-heading"><h2>Support for your<br><span>whole environment.</span></h2><p>Practical expertise across the systems and services that keep your team connected.</p></div>
+      <div class="section-kicker"><span>02</span> <span data-i18n="servicesKicker">What we take care of</span></div>
+      <div class="services-heading"><h2 data-i18n-html="servicesTitle">Support for your<br><span>whole environment.</span></h2><p data-i18n="servicesCopy">Practical expertise across the systems and services that keep your team connected.</p></div>
       <div class="service-grid">
-        <article class="service-card"><div class="card-top"><span class="service-number">01 / SUPPORT</span><span class="service-icon icon-screen">▱</span></div><h3>Remote PC &amp;<br>Server Support</h3><p>Responsive troubleshooting and technical help for the people and systems you rely on.</p><a href="#contact" aria-label="Ask about Remote PC and Server Support">↗</a></article>
-        <article class="service-card"><div class="card-top"><span class="service-number">02 / CONNECTIVITY</span><span class="service-icon icon-network">⌘</span></div><h3>Network<br>Management</h3><p>Care for your network so your teams, devices and applications stay connected.</p><a href="#contact" aria-label="Ask about Network Management">↗</a></article>
-        <article class="service-card"><div class="card-top"><span class="service-number">03 / VISIBILITY</span><span class="service-icon icon-monitor">◉</span></div><h3>Server<br>Monitoring</h3><p>Ongoing visibility into server health to help spot issues and respond with confidence.</p><a href="#contact" aria-label="Ask about Server Monitoring">↗</a></article>
-        <article class="service-card"><div class="card-top"><span class="service-number">04 / FOUNDATION</span><span class="service-icon icon-infra">⌗</span></div><h3>IT Infrastructure<br>Management</h3><p>Coordinated management of the technology foundation behind your business.</p><a href="#contact" aria-label="Ask about IT Infrastructure Management">↗</a></article>
-        <article class="service-card service-card-wide"><div class="card-top"><span class="service-number">05 / PARTNERSHIP</span><span class="service-icon icon-managed">✳</span></div><h3>Managed IT Services</h3><p>Ongoing support and management shaped around your environment, priorities and day-to-day needs.</p><a href="#contact" aria-label="Ask about Managed IT Services">↗</a></article>
+        <article class="service-card"><div class="card-top"><span class="service-number" data-i18n="serviceType1">01 / SUPPORT</span><span class="service-icon icon-screen">▱</span></div><h3 data-i18n-html="serviceTitle1">Remote PC &amp;<br>Server Support</h3><p data-i18n="serviceCopy1">Responsive troubleshooting and technical help for the people and systems you rely on.</p><a href="#contact" aria-label="Ask about Remote PC and Server Support" data-i18n-aria="serviceAria1">↗</a></article>
+        <article class="service-card"><div class="card-top"><span class="service-number" data-i18n="serviceType2">02 / CONNECTIVITY</span><span class="service-icon icon-network">⌘</span></div><h3 data-i18n-html="serviceTitle2">Network<br>Management</h3><p data-i18n="serviceCopy2">Care for your network so your teams, devices and applications stay connected.</p><a href="#contact" aria-label="Ask about Network Management" data-i18n-aria="serviceAria2">↗</a></article>
+        <article class="service-card"><div class="card-top"><span class="service-number" data-i18n="serviceType3">03 / VISIBILITY</span><span class="service-icon icon-monitor">◉</span></div><h3 data-i18n-html="serviceTitle3">Server<br>Monitoring</h3><p data-i18n="serviceCopy3">Ongoing visibility into server health to help spot issues and respond with confidence.</p><a href="#contact" aria-label="Ask about Server Monitoring" data-i18n-aria="serviceAria3">↗</a></article>
+        <article class="service-card"><div class="card-top"><span class="service-number" data-i18n="serviceType4">04 / FOUNDATION</span><span class="service-icon icon-infra">⌗</span></div><h3 data-i18n-html="serviceTitle4">IT Infrastructure<br>Management</h3><p data-i18n="serviceCopy4">Coordinated management of the technology foundation behind your business.</p><a href="#contact" aria-label="Ask about IT Infrastructure Management" data-i18n-aria="serviceAria4">↗</a></article>
+        <article class="service-card service-card-wide"><div class="card-top"><span class="service-number" data-i18n="serviceType5">05 / PARTNERSHIP</span><span class="service-icon icon-managed">✳</span></div><h3 data-i18n="serviceTitle5">Managed IT Services</h3><p data-i18n="serviceCopy5">Ongoing support and management shaped around your environment, priorities and day-to-day needs.</p><a href="#contact" aria-label="Ask about Managed IT Services" data-i18n-aria="serviceAria5">↗</a></article>
       </div>
     </section>
 
     <section class="statement">
-      <div class="statement-orb"></div><div class="statement-inner"><span class="statement-mark">R</span><p>Always Connected.<br><em>Always Supported.</em></p><span class="statement-rule"></span><small>THE REMUXA PROMISE</small></div>
+      <div class="statement-orb"></div><div class="statement-inner"><span class="statement-mark">R</span><p data-i18n-html="statementTitle">Always Connected.<br><em>Always Supported.</em></p><span class="statement-rule"></span><small data-i18n="statementNote">THE REMUXA PROMISE</small></div>
     </section>
 
     <section class="contact section-wrap" id="contact">
-      <div class="section-kicker"><span>03</span> Start a conversation</div>
-      <div class="contact-content"><div><h2>Let’s make IT<br><span>work for you.</span></h2><p>Tell us what you need help with. We’ll start with a conversation about your environment and how we can support it.</p></div><div class="contact-card"><div class="contact-card-icon">↗</div><span class="contact-eyebrow">NEED IT SUPPORT?</span><h3>We’re ready<br>when you are.</h3><p>Reach out to discuss remote support or managed IT services for your business.</p><a class="button button-blue" href="mailto:CONFIGURE-CONTACT-EMAIL">Contact REMUXA <span>↗</span></a><small>CONTACT EMAIL TO BE CONFIGURED</small></div></div>
+      <div class="section-kicker"><span>03</span> <span data-i18n="contactKicker">Start a conversation</span></div>
+      <div class="contact-content"><div><h2 data-i18n-html="contactTitle">Let’s make IT<br><span>work for you.</span></h2><p data-i18n="contactCopy">Tell us what you need help with. We’ll start with a conversation about your environment and how we can support it.</p></div><div class="contact-card"><div class="contact-card-icon">↗</div><span class="contact-eyebrow" data-i18n="contactEyebrow">NEED IT SUPPORT?</span><h3 data-i18n-html="contactCardTitle">We’re ready<br>when you are.</h3><p data-i18n="contactCardCopy">Reach out to discuss remote support or managed IT services for your business.</p><a class="button button-blue contact-email" href="mailto:support@remuxa.com"><span data-i18n="contactButton">Contact REMUXA</span> <span>↗</span></a><small data-i18n="contactEmailLabel">EMAIL US AT SUPPORT@REMUXA.COM</small></div></div>
     </section>
   </main>
-  <footer class="footer"><a class="brand footer-brand" href="#top" aria-label="REMUXA home"><img width="214" src="remuxa-logo.svg" alt="REMUXA — Remote IT Support &amp; Management"></a><span class="footer-slogan">Always Connected. Always Supported.</span><span class="copyright">© <span id="year"></span> REMUXA</span></footer>
+  <footer class="footer"><a class="brand footer-brand" href="#top" aria-label="REMUXA home" data-i18n-aria="brandHome"><img width="214" src="remuxa-logo.svg" alt="REMUXA — Remote IT Support &amp; Management" data-i18n-alt="brandAlt"></a><span class="footer-slogan" data-i18n="footerSlogan">Always Connected. Always Supported.</span><span class="copyright">© <span id="year"></span> REMUXA</span></footer>
+  <script src="script.js"></script>
   <script type="text/javascript">
     window.$alpemixweb || (window.$alpemixweb = function () {
       var e = document.createElement("script");
@@ -82,6 +87,5 @@
       h.insertBefore(e, h.firstChild);
     })();
   </script>
-  <script src="script.js"></script>
 </body>
 </html>
