@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">REMUXA icon</title>
+  <g transform="scale(5)">
+    <rect width="48" height="48" rx="13" fill="#07152d"/>
+    <path d="M13.5 36V12h12.1c6.1 0 10 3.5 10 8.7 0 3.7-2 6.4-5.5 7.7L37.3 36h-8.2l-6.1-6.8h-2.3V36h-7.2Zm7.2-12.4h4.2c2.3 0 3.5-.9 3.5-2.7s-1.2-2.7-3.5-2.7h-4.2v5.4Z" fill="#fff"/>
+    <path d="M29.7 12.1h5.5" fill="none" stroke="#2784ff" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="38.5" cy="12" r="4.5" fill="#2784ff" stroke="#07152d" stroke-width="1.5"/>
+    <circle cx="38.5" cy="12" r="1.3" fill="#fff"/>
+  </g>
+</svg>
