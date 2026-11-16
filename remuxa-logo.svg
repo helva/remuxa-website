@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="54" viewBox="0 0 312 54" role="img" aria-labelledby="title desc">
+  <title id="title">REMUXA</title>
+  <desc id="desc">REMUXA — Remote IT Support and Management</desc>
+  <g transform="translate(2 3)">
+    <rect width="48" height="48" rx="13" fill="#07152d"/>
+    <path d="M13.5 36V12h12.1c6.1 0 10 3.5 10 8.7 0 3.7-2 6.4-5.5 7.7L37.3 36h-8.2l-6.1-6.8h-2.3V36h-7.2Zm7.2-12.4h4.2c2.3 0 3.5-.9 3.5-2.7s-1.2-2.7-3.5-2.7h-4.2v5.4Z" fill="#fff"/>
+    <path d="M29.7 12.1h5.5" fill="none" stroke="#2784ff" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="38.5" cy="12" r="4.5" fill="#2784ff" stroke="#07152d" stroke-width="1.5"/>
+    <circle cx="38.5" cy="12" r="1.3" fill="#fff"/>
+  </g>
+  <text x="62" y="27" fill="#07152d" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="3.3">REMUXA</text>
+  <text x="63" y="43" fill="#66758c" font-family="Arial, sans-serif" font-size="8.2" font-weight="700" letter-spacing="1.05">REMOTE IT SUPPORT &amp; MANAGEMENT</text>
+</svg>
